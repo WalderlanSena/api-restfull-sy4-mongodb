@@ -1,0 +1,7 @@
+services:
+    App\User\Service\UserService:
+        arguments:
+            - '@Doctrine\ODM\MongoDB\DocumentManager'
+
+    advance_routes:
+        class: App\User\Routing\AdvanceLoader

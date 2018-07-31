@@ -1,0 +1,4 @@
+user_router:
+    type: rest
+    resource: App\User\Controller\UserController
+    prefix: /user
